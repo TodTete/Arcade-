@@ -112,7 +112,3 @@ Arcade-/
 
 Este proyecto está bajo la licencia **MIT**.
 Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
-
-```
-¿Quieres que además te prepare un **banner tipo arcade (pixel-art)** en formato PNG para ponerlo arriba del README y darle un look más retro-gamer? 🎨
-```
