@@ -1,37 +1,118 @@
 # 🕹️ Arcade Simulator – Aplicación Web Interactiva
 
-**Arcade Simulator** es una aplicación creada con **[v0.dev](https://v0.dev)** que emula la experiencia de una máquina arcade clásica. La plataforma ofrece una selección de minijuegos interactivos, accesibles desde una interfaz moderna, sencilla y responsiva.
+**Arcade Simulator** es una aplicación web creada con **[v0.dev](https://v0.dev)** que emula la experiencia de una máquina arcade clásica.  
+Ofrece una selección de **minijuegos interactivos** accesibles desde una interfaz moderna, responsiva y fácil de usar.
+
+[![Repo](https://img.shields.io/badge/GitHub-TodTete-blue?logo=github)](https://github.com/TodTete/Arcade-)
+[![Status](https://img.shields.io/badge/status-en%20desarrollo-orange)](#estado)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
 ## 🎯 Objetivo del proyecto
 
-El propósito de esta aplicación es recrear un entorno lúdico y nostálgico, que permita al usuario disfrutar de diferentes juegos desde una única interfaz web, promoviendo la exploración de experiencias interactivas construidas con componentes generados mediante inteligencia artificial.
+Recrear un **entorno lúdico y nostálgico** que permita disfrutar de distintos juegos desde una única plataforma web, fomentando la exploración de experiencias interactivas construidas con componentes generados mediante **inteligencia artificial**.
 
 ---
 
 ## 🧱 Tecnologías y herramientas
 
-* 🧠 **v0.dev** – Generación de interfaz basada en IA
-* 🌐 **HTML/CSS/JS** modernos
-* 🎮 Juegos integrados diseñados para navegadores
-* 💡 Enfoque modular e intuitivo para fácil expansión
+- 🧠 **v0.dev** – Generación de interfaz con IA  
+- ⚛️ **Next.js + React** – Base del proyecto  
+- 🎨 **Tailwind CSS** – Estilos responsivos y modernos  
+- 🎮 **HTML/CSS/JS** – Para la lógica de los minijuegos  
+- 📦 **Arquitectura modular** – Facilita agregar nuevos juegos  
 
 ---
 
 ## 🕹️ Juegos incluidos
 
-* 🐍 Snake
-* 🧱 Breakout
-* 🪙 Coin Catch
-* 🎯 Reaction Game
-  *(La lista puede variar según las versiones del proyecto)*
+Actualmente disponibles:
+
+- 🐍 **Snake**  
+- 🧱 **Breakout**  
+- 🪙 **Coin Catch**  
+- 🎯 **Reaction Game**  
+
+*(La lista puede ampliarse en futuras versiones)*
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+
+Arcade-/
+├─ app/             # Páginas principales (Next.js App Router)
+├─ components/      # Componentes reutilizables
+├─ hooks/           # Custom hooks
+├─ lib/             # Funciones auxiliares
+├─ public/          # Archivos estáticos
+├─ styles/          # Estilos globales
+├─ .gitignore
+├─ README.md
+├─ components.json
+├─ next.config.mjs
+├─ package.json
+├─ postcss.config.mjs
+├─ tailwind.config.ts
+└─ tsconfig.json
+
+````
+
+---
+
+## 🚀 Instalación y ejecución
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/TodTete/Arcade-.git
+   cd Arcade-
+
+2. Instala dependencias:
+
+   ```bash
+   npm install
+   ```
+3. Ejecuta en modo desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+4. Abre en tu navegador:
+   👉 `http://localhost:3000`
 
 ---
 
 ## ⚠️ Recomendaciones
 
-> Esta aplicación es de uso experimental y educativo. Los juegos están diseñados para ejecutarse en navegadores modernos, preferentemente en dispositivos con pantalla amplia para una mejor experiencia.
+* Funciona mejor en **navegadores modernos** (Chrome, Edge, Firefox).
+* Se recomienda usar en **pantallas amplias** para una experiencia más inmersiva.
+* Proyecto con fines **educativos y experimentales**.
 
 ---
 
+## 🔮 Próximos pasos
+
+* [ ] Añadir más minijuegos (Tetris, Pong, Memory Game).
+* [ ] Sistema de puntuaciones globales y ranking.
+* [ ] Modo multijugador local.
+* [ ] Exportar como **PWA (Progressive Web App)**.
+
+---
+
+## 👤 Autor
+
+**Ricardo Vallejo**
+🔗 [Repositorio oficial](https://github.com/TodTete/Arcade-)
+
+---
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**.
+Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
+
+```
+¿Quieres que además te prepare un **banner tipo arcade (pixel-art)** en formato PNG para ponerlo arriba del README y darle un look más retro-gamer? 🎨
+```
